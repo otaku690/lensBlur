@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="3party\glm.cpp" />
+    <ClCompile Include="src\camera.cpp" />
+    <ClCompile Include="src\glRoutine.cpp" />
+    <ClCompile Include="src\glslUtility.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\objLoader.cpp" />
+    <ClCompile Include="src\shader.cpp" />
+    <ClCompile Include="src\util.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3party\glm.h" />
+    <ClInclude Include="src\camera.h" />
+    <ClInclude Include="src\glRoutine.h" />
+    <ClInclude Include="src\glslUtility.h" />
+    <ClInclude Include="src\objLoader.h" />
+    <ClInclude Include="src\shader.h" />
+    <ClInclude Include="src\util.h" />
+    <ClInclude Include="src\variables.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shader">
+      <UniqueIdentifier>{1df5efe3-f8da-45c4-9411-69df858ceb78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\diagnostic.frag.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shadowmap.frag.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shadowmap.vert.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\pass.frag.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\pass.vert.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\shade.vert.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\depthPeeling.vert.glsl">
+      <Filter>shader</Filter>
+    </None>
+    <None Include="shader\depthPeeling.frag.glsl">
+      <Filter>shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
